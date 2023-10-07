@@ -1,0 +1,142 @@
+.job-item-details-container {
+  display: flex;
+  flex-direction: column;
+  width: 90%;
+  align-self: center;
+  margin-bottom: 30px;
+}
+
+.job-details-container {
+  margin-top: 30px;
+  padding-bottom: 50px;
+}
+
+@media (min-width: 768px) {
+  .job-details-container {
+    padding: 50px;
+  }
+}
+
+.website-link-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.skills-container {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.skills-list-item {
+  display: flex;
+  align-items: center;
+  width: 50%;
+  margin-bottom: 25px;
+}
+
+.skills-img {
+  width: 35px;
+  margin-right: 15px;
+}
+
+@media (min-width: 768px) {
+  .skills-list-item {
+    width: 33%;
+  }
+
+  .skills-img {
+    width: 50px;
+  }
+}
+
+.skill-name {
+  color: #ffffff;
+  font-size: 20px;
+}
+
+.life-at-company-heading {
+  color: #ffffff;
+  font-size: 22px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.company-life-info {
+  color: #ffffff90;
+  font-size: 18px;
+  margin-bottom: 25px;
+}
+
+.company-img {
+  width: 100%;
+}
+
+@media (min-width: 768px) {
+  .life-at-company-container {
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .company-life-info {
+    width: 60%;
+    margin-right: 15px;
+  }
+
+  .company-img {
+    width: 400px;
+  }
+}
+
+.similar-job-heading {
+  color: #ffffff;
+  font-size: 30px;
+  margin-bottom: 25px;
+}
+
+.similar-job-list-item {
+  background-color: #272727;
+  padding: 15px;
+  padding-bottom: 25px;
+  border-radius: 15px;
+  margin-bottom: 25px;
+}
+
+.similar-job-description-heading {
+  color: #ffffff;
+  font-size: 20px;
+  margin-top: 25px;
+  margin-bottom: 15px;
+}
+
+.job-item-failure-retry-btn {
+  color: #ffffff;
+  font-size: 17px;
+  height: 40px;
+  width: 100px;
+  border: none;
+  background-color: #4f46e5;
+  border-radius: 5px;
+  outline: none;
+  cursor: pointer;
+  margin-top: 15px;
+}
+
+.skills-heading {
+  font-size: 20px;
+  color: #ffffff;
+  margin-bottom: 20px;
+}
+
+@media (min-width: 768px) {
+  .similar-jobs-list-container {
+    display: flex;
+    flex-wrap: wrap;
+  }
+
+  .similar-job-list-item {
+    min-width: 280px;
+    max-width: 300px;
+    margin-right: 20px;
+  }
+}
